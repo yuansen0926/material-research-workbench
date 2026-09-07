@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#205c4b">
+  <title>研序 · 材料研究工作台</title>
+  <link rel="icon" href="/icons/notebook-pen.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/ui/styles.css">
+</head>
+<body>
+  <aside class="app-nav">
+    <a class="brand" href="#/projects"><img src="/icons/notebook-pen.svg" alt=""><span>研序<small>材料研究工作台</small></span></a>
+    <nav aria-label="主导航"><a href="#/projects"><img src="/icons/folders.svg" alt="">研究项目</a><a href="#/settings"><img src="/icons/settings-2.svg" alt="">设置</a></nav>
+    <div class="nav-bottom"><span class="local-dot"></span> 本地工作区<span id="model-status">正在连接</span></div>
+  </aside>
+  <main id="main" tabindex="-1"><div class="loading">正在打开工作台…</div></main>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+  <dialog id="dialog"></dialog>
+  <script type="module" src="/ui/app.js"></script>
+</body>
+</html>
